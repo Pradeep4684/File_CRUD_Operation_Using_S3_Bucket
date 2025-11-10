@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: File_CRUD_Operation_Using_S3_Bucket
+
+  thymeleaf:
+    cache: false
+
+aws:
+  region: ap-south-1
+  s3:
+    bucket-name: your-bucket-name
+  credentials:
+    access-key: YOUR_ACCESS_KEY
+    secret-key: YOUR_SECRET_KEY
+
+
